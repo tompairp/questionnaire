@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>制作调查问卷</title>
+		<link href="./questionnaire.css" rel="stylesheet" type="text/css"/>
+	</head>
+ 
+	<body>
+		<div class="index">
+		<h1 class="biaoti">调查问卷</h1>
+		<hr width="597px" color="black"/>
+		<form class="biaodan">
+			<ol>
+				<br />
+				<li>您所在的学校：</li><input type="text" name="Name">
+				<br />
+				<li>你的年龄是？</li>
+				<label><input type="radio" name="age" ></label>小于18岁<br />
+				<label><input type="radio" name="age" ></label>18-25岁<br />
+				<label><input type="radio" name="age" ></label>26-35岁<br />
+				<label><input type="radio" name="age" ></label>36-50岁<br />
+				<label><input type="radio" name="age" ></label>51岁及以上<br />
+				<br />
+				<li>您每天的睡眠时间是多久？</li>
+				<label><input type="radio" name="time1"/></label>小于6小时<br />
+				<label><input type="radio" name="time1"/></label>6-8小时<br />
+				<label><input type="radio" name="time1"/></label>大于8小时<br />
+				<br />
+				<li>您觉得自己的压力水平如何？</li>
+				<label><input type="radio" name="yali"/></label>低<br />
+				<label><input type="radio" name="yali"/></label>中等<br />
+				<label><input type="radio" name="yali"/></label>高<br />
+				<br />
+				<li>您是否有良好的社交支持系统？</li>
+				<label><input type="radio" name="shejiao" /></label>是<br />
+				<label><input type="radio" name="shejiao" /></label>否<br />
+				<br />
+				<li>你早上起床的时间是？</li>
+				<label><input type="radio" name="time2"/></label>早上六点至七点<br />
+				<label><input type="radio" name="time2"/></label>早上八点至九点<br />
+				<label><input type="radio" name="time2"/></label>早上十点至十一点<br />
+				<label><input type="radio" name="time2"/></label>中午十二点之后<br />
+				<br />
+				<li>你最近有锻炼身体吗？</li>
+				<label><input type="radio" name="duanlian"/></label>一周三到五次<br />
+				<label><input type="radio" name="duanlian"/></label>一周一到两次<br />
+				<label><input type="radio" name="duanlian"/></label>一周一次<br />
+				<label><input type="radio" name="duanlian"/></label>很久没锻炼了<br />
+				<br />
+				<li>你近期与别人发生过矛盾吗？</li>
+				<label><input type="radio" name="maodun"/></label>有，没和好<br />
+				<label><input type="radio" name="maodun"/></label>有，和好了<br />
+				<label><input type="radio" name="maodun"/></label>有，并且打了一架<br />
+				<label><input type="radio" name="maodun"/></label>有，就吵了下嘴<br />
+				<label><input type="radio" name="maodun"/></label>没有<br />
+				<br />
+				<li>你喜欢的运动有？（可多选）</li>
+				<label><input type="checkbox" name="sport" value="1"/></label>篮球<br />
+				<label><input type="checkbox" name="sport" value="2"/></label>乒乓球<br />
+				<label><input type="checkbox" name="sport" value="3"/></label>羽毛球<br />
+				<label><input type="checkbox" name="sport" value="4"/></label>足球<br />
+				<label><input type="checkbox" name="sport" value="5"/></label>棒球<br />
+				<label><input type="checkbox" name="sport" value="5"/></label>台球<br />
+				<label><input type="checkbox" name="sport" value="5"/></label>散打<br />
+				<br />
+				<li>您平时更喜欢哪种类型的电影/电视节目？（可多选）</li>
+				<label><input type="checkbox" name="video" value="1"/></label>动作<br />
+				<label><input type="checkbox" name="video" value="2"/></label>喜剧<br />
+				<label><input type="checkbox" name="video" value="3"/></label>爱情<br />
+				<label><input type="checkbox" name="video" value="4"/></label>科幻<br />
+				<label><input type="checkbox" name="video" value="5"/></label>惊悚<br />
+				<label><input type="checkbox" name="video" value="6"/></label>纪录片<br />
+				<label><input type="checkbox" name="video" value="7"/></label>其他<br />
+				<br />
+				<li>你的意见:</li>
+				<br />
+				<textarea name="message"></textarea>	
+			</ol>
+			<br />
+				<button id="tijiao">提交</button>	
+		</form>
+		</div>
+	</body>
+</html>
